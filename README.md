@@ -36,12 +36,5 @@ pip install -r requirements-prework.txt
    - `python -m venv venv`
    - `.\venv\Scripts\Activate.ps1`
 
-2) Install dependencies:
-   - `pip install -r requirements.txt`
-
-3) Run the project from the repository root:
-   - `python main.py`
-   - (If your entry point is different, replace `main.py` with the correct file.)
-
-4) Confirm success:
+2) Confirm success:
    - You should see the program start without errors (and any expected output described above).
