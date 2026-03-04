@@ -31,6 +31,13 @@ Server: Docker Desktop 4.63.0 (220185)
 
 
 ## Hello World Test
+
+Command used:
+
+```bash
+docker run hello-world
+```
+
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
@@ -46,8 +53,11 @@ docker run -d \
   -p 5432:5432 \
   postgres:15-alpine
 ```
-## log output
+
+## Log Output
+
 2026-03-04 09:25:42.020 UTC [1] LOG:  database system is ready to accept connections
+
 
 ## Stop Container
 
