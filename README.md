@@ -28,19 +28,3 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
-
-
-## How to run
-
-1) Create and activate a virtual environment (Windows PowerShell):
-   - `python -m venv venv`
-   - `.\venv\Scripts\Activate.ps1`
-
-
-
-3) Run the project from the repository root:
-   - `python main.py`
-   - (If your entry point is different, replace `main.py` with the correct file.)
-
-4) Confirm success:
-   - You should see the program start without errors (and any expected output described above).
