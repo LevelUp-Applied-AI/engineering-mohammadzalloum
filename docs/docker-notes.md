@@ -45,6 +45,19 @@ docker run -d \
   -e POSTGRES_PASSWORD=prework \
   -p 5432:5432 \
   postgres:15-alpine
-
+```
 ## log output
 2026-03-04 09:25:42.020 UTC [1] LOG:  database system is ready to accept connections
+
+## Stop Container
+
+```bash
+docker stop pg-prework
+```
+
+
+## Restart Container
+
+```bash
+docker restart pg-prework
+```
