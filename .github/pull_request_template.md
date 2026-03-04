@@ -1,26 +1,20 @@
-## What changed
-<!-- Summarize the change in 2–5 bullets. Mention user-visible behavior and key files. -->
-- 
-- 
+##What changed
+Added Docker validation notes with Postgres container logs and command outputs in docs/docker-notes.md.
+Created branch pr-08-docker and prepared environment validation evidence.
 
-## Why
-<!-- Explain the problem, context, and why this approach. Link issue/ticket if available. -->
-- 
+##Why
+To validate Docker + Postgres setup and meet PR 8 assignment requirements.
 
-## How to test
-<!-- Provide exact commands and expected results. A reviewer should verify in <5 minutes. -->
-1) 
-2) 
-3) Expected: 
+##How to test
+git checkout pr-08-docker
+cat docs/docker-notes.md
+docker ps
+docker logs pg-prework
 
-## Notes / Risks
-<!-- Any risks, migrations, feature flags, backwards-compatibility notes. -->
-- 
-
-## Checklist
-- [ ] Title is specific and in imperative mood (e.g., "docs: add …", "fix: correct …")
-- [ ] PR is one logical change (no unrelated refactors/formatting)
-- [ ] Instructions are reproducible (a reviewer can verify in <5 minutes)
-- [ ] Tests added/updated OR I explained why not
-- [ ] README/docs updated if behavior changed
-- [ ] No debug artifacts left (print/breakpoint/commented code)
+##Checklist
+ Docker validation notes added
+ Postgres container tested
+ Logs captured
+ Resource screenshots added
+ PR opened and autograder passed
+ PR merged after passing checks
