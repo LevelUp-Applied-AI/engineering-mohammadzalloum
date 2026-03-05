@@ -44,3 +44,18 @@ pip install -r requirements-prework.txt
 
 4) Confirm success:
    - You should see the program start without errors (and any expected output described above).
+     
+
+
+## evidence
+
+![Screenshot_2026-03-04_111647](https://github.com/user-attachments/assets/4f292391-c781-4f75-acc3-44b0a5c808d8)
+
+
+![genral docker](https://github.com/user-attachments/assets/a62684fe-7177-4dc3-a743-6c6b9cf97a4b)
+
+
+![image](https://github.com/user-attachments/assets/2415784f-b773-46f8-ab9f-682155cfa763)
+
+  
+
